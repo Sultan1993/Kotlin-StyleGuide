@@ -179,7 +179,7 @@ if (someTest) {
    doSomething()
 }
 ```
-- Insert space between class name and the opening brace. <b>DONT</b> insert space between class name and the opening brace of the constructor.
+- <b>DONT</b> insert space between class name and the opening brace of the constructor. Insert space between class name and the opening brace of a class.
 
 __BAD:__
 
