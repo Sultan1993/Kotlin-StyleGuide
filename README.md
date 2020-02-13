@@ -75,7 +75,7 @@ Written in __lowerCamelCase__.
 
 Single character values must be avoided, except for temporary looping variables.
 
-## Spacing
+### Spacing
 
 Spacing is especially important in raywenderlich.com code, as code needs to be easily readable as part of the tutorial. 
 
@@ -89,7 +89,7 @@ for (i in 0..9) {
 }
 ```
 
-#### Line Wraps
+### Line Wraps
 
 Indentation for line wraps should use 1 tab:
 
@@ -98,11 +98,11 @@ val widget: FlightWidget =
     someLongFunction(where, params, willNotFit, on, aSingle, line)
 ```
 
-## Getters & Setters
+##$ Getters & Setters
 
 Unlike Java, direct access to fields in Kotlin is preferred. 
 
-## Brace Style
+### Brace Style
 
 Only trailing closing-braces are awarded their own line. All others appear the same line as preceding code:
 
