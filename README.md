@@ -19,7 +19,7 @@ This style-guide is of a mash-up between the existing Kotlin language style guid
 # Содержание
 1. [Line length](#linelength)
 2. [Naming conventions](#naming)
-3. [Порядок следования модификаторов](#modifier_order)
+3. [Spacing](#spacing)
 4. [Форматирование выражений](#expression_formating)
 5. [Функции](#function)
     * 5.1 [Функции с одним выражением](#function_expression)
@@ -81,9 +81,19 @@ Unlike Java, direct access to fields in Kotlin is preferred.
 
 ### Resources
 
-Resource names are equally important as other parts of the code. We name our resources with __lower-case__. Try to name resources regarding their place in the code structure. Convention should be: <b>screen_widget_resource</b>
+Resource names are equally important as other parts of the code. We name our resources with __lower-case__. Try to name resources regarding their place in the code structure. Also, separate resource according to the screen or feature you are creating them for. Convention should be: <b>screen_widget_resource</b>. For example:
 
-## Spacing
+```xml
+<!-- Booking List -->
+<booking_list_placeholder_title>You don't have any tickets yet</booking_list_placeholder_title>
+<booking_list_error_title>Error occurred</booking_list_error_title>
+
+<!-- Booking Details -->
+<booking_details_title>Booking details</booking_details_title>
+<booking_details_download_pdf>Download PDF</booking_details_download_pdf>
+```
+
+# <a name='spacing'>Spacing</a>
 
 Spacing is super important at Aviata.kz and Chocotravel.com. Code needs to be easily readable. 
 
