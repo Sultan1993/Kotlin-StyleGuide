@@ -20,7 +20,8 @@ This style-guide is of a mash-up between the existing Kotlin language style guid
 1. [Line length](#linelength)
 2. [Naming conventions](#naming)
 3. [Spacing](#spacing)
-4. [XML Guidance](#xml_guidance)
+4. [Code structure)(#code_structure)
+5. [XML Guidance](#xml_guidance)
 4. [Форматирование выражений](#expression_formating)
 5. [Функции](#function)
     * 5.1 [Функции с одним выражением](#function_expression)
@@ -193,7 +194,85 @@ class MyClass(...) {
    // ...
 }
 ```
+# <a name='code_structure'>Code structure</a>
 
+## Classes
+
+Classes should be strucutured with the following format:
+1. companion object
+2. Fields: abstract, override, public, internal, protected, private
+3. Initialization block: init, constructors
+4. Abstract methods
+5. Overridden parent methods
+6. Inteface methods
+7. public methods
+8. internal methods
+9. protected methods
+10. private methods
+11. inner classes
+
+## When Statements
+
+Unlike `switch` statements in Java, `when` statements do not fall through. Separate cases using commas if they should be handled the same way.
+
+```kotlin
+when (anInput) {
+  1, 2 -> doSomethingForCaseOneOrTwo()
+  3 -> doSomethingForCaseThree()
+  else -> println("No case satisfied")
+}
+```
+
+### Type Inference
+
+Type inference should be preferred where possible to explicitly declared types.
+
+__BAD:__
+
+```kotlin
+val something: MyType = MyType()
+val meaningOfLife: Int = 42
+```
+
+__GOOD:__
+
+```kotlin
+val something = MyType()
+val meaningOfLife = 42
+```
+
+### Expressions
+
+In case of a line break symbol `.` and operator `?.` should be placed on a new line.
+
+```kotlin
+val collectionItem = source.collectionItems
+                ?.dropLast(10)
+                ?.sortedBy { it.progress }
+```
+
+Elvis operator `?:` in case of a line break should be place on a new line:
+
+```kotlin
+val promoItemDistanceTradeLink = promoItem.distanceTradeLinks?.appLink
+            ?: String.EMPTY
+```
+
+### Lambda expressions
+
+- Try to leave lambda expression on a single line if possible using `it` as an argument
+- Leave the lamda expression out of the constructor braces if it is a single parameter
+
+```kotlin
+val adapter = MyAdapter { 
+   // lambda expression 
+}
+```
+- Use function reference if possible
+```kotlin
+val adapter = QuestAdapter(quest, ::onQuestClicked)
+```
+- Replace unused parameters of a lambda expression with `_`. 
 
 # <a name='xml_guidance'>XML Guidance</a>
 
