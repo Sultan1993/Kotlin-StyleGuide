@@ -20,21 +20,8 @@ This style-guide is of a mash-up between the existing Kotlin language style guid
 1. [Line length](#linelength)
 2. [Naming conventions](#naming)
 3. [Spacing](#spacing)
-4. [Code structure)(#code_structure)
+4. [Code structure](#code_structure)
 5. [XML Guidance](#xml_guidance)
-4. [Форматирование выражений](#expression_formating)
-5. [Функции](#function)
-    * 5.1 [Функции с одним выражением](#function_expression)
-    * 5.2 [Форматирование вызова функции](#formating_function_calling)
-    * 5.3 [Форматирование описания функции](#formating_function_declaration)
-    * 5.4 [Вызов переменной функционального типа](#calling_function_variable)
-6. [Классы](#classes)
-7. [Аннотации](#annotation)
-8. [Структура класса](#class_member_order)
-9. [Форматирование лямбда-выражений](#lambda_formating)
-10. [Использование условных операторов](#condition_operator)
-11. [Template header](#template_header)
-12. [Файлы](#files)
 
 # <a name='linelength'>Line length</a>
 - Maximum line length: 100 characters.
