@@ -17,7 +17,7 @@ This style-guide is of a mash-up between the existing Kotlin language style guid
 - The [RedMadRobot Style Guide](https://github.com/RedMadRobot/kotlin-style-guide#naming)
 
 # Содержание
-1. [Длина строки](#linelength)
+1. [Line length](#linelength)
 2. [Правила именования](#naming)
 3. [Порядок следования модификаторов](#modifier_order)
 4. [Форматирование выражений](#expression_formating)
@@ -33,3 +33,6 @@ This style-guide is of a mash-up between the existing Kotlin language style guid
 10. [Использование условных операторов](#condition_operator)
 11. [Template header](#template_header)
 12. [Файлы](#files)
+
+# <a name='linelength '>Line length</a>
+- Maximum line length: 100 characters.
