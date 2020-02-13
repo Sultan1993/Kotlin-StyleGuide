@@ -198,7 +198,7 @@ Classes should be strucutured with the following format:
 10. private methods
 11. inner classes
 
-## When Statements
+### When Statements
 
 Unlike `switch` statements in Java, `when` statements do not fall through. Separate cases using commas if they should be handled the same way.
 
