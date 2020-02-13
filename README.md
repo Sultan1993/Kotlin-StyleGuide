@@ -68,3 +68,9 @@ companion object {
   const val THE_ANSWER = 42
 }
 ```
+
+### Variables & Parameters
+
+Written in __lowerCamelCase__.
+
+Single character values must be avoided, except for temporary looping variables.
