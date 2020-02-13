@@ -16,7 +16,7 @@ This style-guide is of a mash-up between the existing Kotlin language style guid
 - The [Ray Wenderlich Kotlin Style Guide](https://github.com/raywenderlich/kotlin-style-guide#nomenclature)
 - The [RedMadRobot Style Guide](https://github.com/RedMadRobot/kotlin-style-guide#naming)
 
-# Содержание
+# Table of contents
 1. [Line length](#linelength)
 2. [Naming conventions](#naming)
 3. [Spacing](#spacing)
