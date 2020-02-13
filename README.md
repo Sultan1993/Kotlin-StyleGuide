@@ -52,7 +52,7 @@ Classes should be named in __upperCamelCase__.
 data class MyClass(val id: String, val title: String)
 ```
 
-- If class name and it's parameters cannot fit single, all parameters should be placed on a new line with the closing brace on a separate line as well. 
+If class name and it's parameters cannot fit single, all parameters should be placed on a new line with the closing brace on a separate line as well. 
 
 ```kotlin
 data class MyClass(
@@ -62,7 +62,7 @@ data class MyClass(
 ) : Serializable
 ```
 
-- If parent's class name and it's parameters cannot fit single line, then you should stick to the rule above.
+If parent's class name and it's parameters cannot fit single line, then you should stick to the rule above.
 
 ```kotlin
 data class MyClass(
