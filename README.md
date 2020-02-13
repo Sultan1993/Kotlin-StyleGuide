@@ -83,6 +83,25 @@ Unlike Java, direct access to fields in Kotlin is preferred.
 
 Spacing is especially important in raywenderlich.com code, as code needs to be easily readable as part of the tutorial. 
 
+### Line breaks
+
+Single line break should separate class name and it's fields or methods. Leave line break between methods.
+
+```kotlin
+class MyClass {
+
+   var someField: Int?
+
+   fun doSomething() {
+      if (someExpression) {
+         // ...
+      } else {
+         // ...
+      }
+   }
+}
+```
+
 ### Indentation
 
 Indentation is using tabs (1 tab = 4 spaces).
@@ -108,18 +127,19 @@ Only trailing closing-braces are awarded their own line. All others appear the s
 
 ```kotlin
 class MyClass {
-  fun doSomething() {
-    if (someTest) {
-      // ...
-    } else {
-      // ...
-    }
-  }
+
+   fun doSomething() {
+      if (someTest) {
+         // ...
+      } else {
+         // ...
+      }
+   }
 }
 ```
 
 ```kotlin
 if (someTest) {
-  doSomething()
+   doSomething()
 }
 ```
