@@ -43,6 +43,37 @@ This style-guide is of a mash-up between the existing Kotlin language style guid
 
 Package names are similar to Java: all __lower-case__, multiple words concatenated together, without hypens or underscores:
 
+### Classes
+
+Classes should be named in __upperCamelCase__. 
+
+```kotlin
+data class MyClass(val id: String, val title: String)
+```
+
+- If class name and it's parameters cannot fit single, all parameters should be placed on a new line with the closing brace on a separate line as well. 
+
+```kotlin
+data class MyClass(
+   val id: String,
+   val title: String,
+   val url: String?
+) : Serializable
+```
+
+- If parent's class name and it's parameters cannot fit single line, then you should stick to the rule above.
+
+```kotlin
+data class MyClass(
+   val id: String,
+   val title: String,
+   val url: String?
+) : ParentClass(
+   val id: String,
+   val title: String
+)
+```
+
 ### Methods
 
 Written in __lowerCamelCase__. For example `setValue`.
