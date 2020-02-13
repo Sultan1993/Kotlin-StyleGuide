@@ -210,7 +210,7 @@ class MyClass {
 }
 ```
 
-- <b>Do not</b> insert space between class name and the opening brace of the constructor.
+- <b>DONT</b> insert space between class name and the opening brace of the constructor.
 
 __BAD:__
 
