@@ -1,4 +1,4 @@
-# <a name='naming'>The official Aviata.kz & Chocotravel.com Kotlin Style Guide</a>
+# <a>The official Aviata.kz & Chocotravel.com Kotlin Style Guide</a>
 
 This style guide is created to keep our code at Aviata.kz and Chocotravel.com clean and consistent. 
 
