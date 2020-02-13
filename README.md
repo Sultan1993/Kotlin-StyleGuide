@@ -101,7 +101,7 @@ Spacing is super important at Aviata.kz and Chocotravel.com. Code needs to be ea
 
 ### Line breaks
 
-Single line break should separate class name and it's fields or methods. Leave line break between methods.
+Single line break should separate class name and it's fields or methods. Leave a line break between methods.
 
 ```kotlin
 class MyClass {
@@ -143,7 +143,7 @@ val widget: FlightWidget =
 
 ### Brace Style
 
-Only trailing closing-braces should be place on their own line. All others appear the same line as preceding code:
+Only trailing closing-braces should be place on their own line. All others appear at the same line as preceding code:
 
 ```kotlin
 class MyClass {
