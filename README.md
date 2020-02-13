@@ -94,6 +94,6 @@ for (i in 0..9) {
 Indentation for line wraps should use 1 tab:
 
 ```kotlin
-val widget: CoolUiWidget =
-    someIncrediblyLongExpression(that, reallyWouldNotFit, on, aSingle, line)
+val widget: FlightWidget =
+    someLongFunction(where, params, willNotFit, on, aSingle, line)
 ```
