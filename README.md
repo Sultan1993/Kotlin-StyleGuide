@@ -81,9 +81,7 @@ Written in __lowerCamelCase__. For example `setValue`.
 
 ### Fields
 
-Generally, written in __lowerCamelCase__. Fields should **not** be named with Hungarian notation!
-
-Example field names:
+Generally, written in __lowerCamelCase__. Fields should **not** be named with Hungarian notation! Example field names:
 
 ```kotlin
 class MyClass {
@@ -103,9 +101,7 @@ companion object {
 
 ### Variables & Parameters
 
-Written in __lowerCamelCase__.
-
-Single character values must be avoided, except for temporary looping variables.
+Written in __lowerCamelCase__. Single character values must be avoided, except for temporary looping variables.
 
 ### Getters & Setters
 
