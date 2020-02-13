@@ -7,9 +7,14 @@ Our goals are:
 <br><b>- readability</b>
 <br><b>- simplicity</b>.
 
-В репозитории приведен набор соглашений по оформлению кода на языке Kotlin. 
+## Inspiration
 
-Этот список правил расширяет предложенные [Google](https://android.github.io/kotlin-guides/style.html) и [командой разработки Kotlin](https://kotlinlang.org/docs/reference/coding-conventions.html) гайды и пересматривает в них некоторые неоднозначные моменты.
+This style-guide is of a mash-up between the existing Kotlin language style guides. The guidance is drawn from: 
+
+- The [Android Kotlin style guide](https://android.github.io/kotlin-guides/style.html)
+- The [Kotlin Coding Conventions](https://kotlinlang.org/docs/reference/coding-conventions.html) 
+- The [Ray Wenderlich Kotlin Style Guide](https://github.com/raywenderlich/kotlin-style-guide#nomenclature)
+- The [RedMadRobot Style Guide](https://github.com/RedMadRobot/kotlin-style-guide#naming)
 
 # Содержание
 1. [Длина строки](#linelength)
