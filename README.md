@@ -203,8 +203,8 @@ Classes should be strucutured with the following format:
 2. Fields: abstract, override, public, internal, protected, private
 3. Initialization block: init, constructors
 4. Abstract methods
-5. Overridden parent methods
-6. Inteface methods
+5. Overridden parent methods (in the same order as they appear in a parent class)
+6. Inteface methods (in the same order as interfaces are declared)
 7. public methods
 8. internal methods
 9. protected methods
@@ -276,7 +276,34 @@ val adapter = QuestAdapter(quest, ::onQuestClicked)
 
 # <a name='xml_guidance'>XML Guidance</a>
 
-Resource names are equally important as other parts of the code. We name our resources with __lower-case__. Try to name resources regarding their place in the code structure. Also, separate resource according to the screen or feature you are creating them for. Convention should be: <b>screen_widget_resource</b>. For example:
+## Layout
+
+View-based XML files should be prefixed with the type of view that they represent. We name our resources with __lower-case__.
+
+__BAD:__
+
+- `login.xml`
+- `main_screen.xml`
+- `rounded_edges_widget.xml`
+
+__GOOD:__
+
+- `activity_login.xml`
+- `fragment_main_screen.xml`
+- `widget_rounded_edges.xml`
+
+Try to use the folllowing types:
+- `activity_....xml`
+- `fragment_....xml`
+- `dialog_....xml`
+- `layout_....xml`
+- `widget_....xml`
+- `view_....xml`
+- `item_....xml` or `adapter_item_....xml` (in case of delegate adapters)
+
+### Resources
+
+Try to name resources regarding their place in the code structure. Also, separate resource according to the screen or feature you are creating them for. Convention should be: <b>screen_widget_resource</b>. For example:
 
 ```xml
 <!-- Booking List -->
