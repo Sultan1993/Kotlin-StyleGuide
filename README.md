@@ -3,9 +3,9 @@
 This style guide is created to keep our code at Aviata.kz and Chocotravel.com clean and consistent. 
 
 Our goals are: 
-<b>- conciseness</b> 
-<b>- readability</b>
-<b>- simplicity</b>.
+<br><b>- conciseness</b> 
+<br><b>- readability</b>
+<br><b>- simplicity</b>.
 
 В репозитории приведен набор соглашений по оформлению кода на языке Kotlin. 
 
