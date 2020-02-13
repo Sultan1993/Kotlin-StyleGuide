@@ -18,7 +18,7 @@ This style-guide is of a mash-up between the existing Kotlin language style guid
 
 # Содержание
 1. [Line length](#linelength)
-2. [Правила именования](#naming)
+2. [Naming conventions](#naming)
 3. [Порядок следования модификаторов](#modifier_order)
 4. [Форматирование выражений](#expression_formating)
 5. [Функции](#function)
@@ -36,3 +36,8 @@ This style-guide is of a mash-up between the existing Kotlin language style guid
 
 # <a name='linelength'>Line length</a>
 - Maximum line length: 100 characters.
+
+# <a name='naming'>Naming conventions</a>
+### Packages
+
+Package names are similar to Java: all __lower-case__, multiple words concatenated together, without hypens or underscores:
