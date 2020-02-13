@@ -34,5 +34,5 @@ This style-guide is of a mash-up between the existing Kotlin language style guid
 11. [Template header](#template_header)
 12. [Файлы](#files)
 
-# <a name='linelength '>Line length</a>
+# <a name='linelength'>Line length</a>
 - Maximum line length: 100 characters.
