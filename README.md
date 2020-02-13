@@ -74,6 +74,21 @@ data class MyClass(
 )
 ```
 
+- <b>Do not</b> insert space between class name and the opening brace of the constructor.
+
+__BAD:__
+
+```kotlin
+class MyClass (...)
+```
+
+__GOOD:__
+
+```kotlin
+class MyClass(...)
+```
+```
+
 ### Methods
 
 Written in __lowerCamelCase__. For example `setValue`.
