@@ -97,3 +97,29 @@ Indentation for line wraps should use 1 tab:
 val widget: FlightWidget =
     someLongFunction(where, params, willNotFit, on, aSingle, line)
 ```
+
+## Getters & Setters
+
+Unlike Java, direct access to fields in Kotlin is preferred. 
+
+## Brace Style
+
+Only trailing closing-braces are awarded their own line. All others appear the same line as preceding code:
+
+```kotlin
+class MyClass {
+  fun doSomething() {
+    if (someTest) {
+      // ...
+    } else {
+      // ...
+    }
+  }
+}
+```
+
+```kotlin
+if (someTest) {
+  doSomething()
+}
+```
