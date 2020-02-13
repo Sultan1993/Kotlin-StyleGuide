@@ -74,3 +74,26 @@ companion object {
 Written in __lowerCamelCase__.
 
 Single character values must be avoided, except for temporary looping variables.
+
+## Spacing
+
+Spacing is especially important in raywenderlich.com code, as code needs to be easily readable as part of the tutorial. 
+
+### Indentation
+
+Indentation is using tabs (1 tab = 4 spaces).
+
+```kotlin
+for (i in 0..9) {
+    Log.i(TAG, "index=" + i)
+}
+```
+
+#### Line Wraps
+
+Indentation for line wraps should use 1 tab:
+
+```kotlin
+val widget: CoolUiWidget =
+    someIncrediblyLongExpression(that, reallyWouldNotFit, on, aSingle, line)
+```
