@@ -179,25 +179,7 @@ if (someTest) {
    doSomething()
 }
 ```
-- Insert space between class name and the opening brace.
-
-__BAD:__
-
-```kotlin
-class MyClass{ 
-   // ...
-}
-```
-
-__GOOD:__
-
-```kotlin
-class MyClass {
-   // ...
-}
-```
-
-- <b>DONT</b> insert space between class name and the opening brace of the constructor.
+- Insert space between class name and the opening brace. <b>DONT</b> insert space between class name and the opening brace of the constructor.
 
 __BAD:__
 
@@ -214,6 +196,7 @@ class MyClass(...) {
    // ...
 }
 ```
+
 
 # <a name='xml_guidance'>XML Guidance</a>
 
