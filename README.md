@@ -99,6 +99,10 @@ class MyClass {
          // ...
       }
    }
+   
+   fun anotherMethod() {
+      // ...
+   }
 }
 ```
 
