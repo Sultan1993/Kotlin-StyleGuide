@@ -79,6 +79,10 @@ Single character values must be avoided, except for temporary looping variables.
 
 Unlike Java, direct access to fields in Kotlin is preferred. 
 
+### Resources
+
+Resource names are equally important as other parts of the code. We name our resources with __lower-case__. Try to name resources regarding their place in the code structure. Convention should be: <b>screen_widget_resource</b>
+
 ## Spacing
 
 Spacing is super important at Aviata.kz and Chocotravel.com. Code needs to be easily readable. 
