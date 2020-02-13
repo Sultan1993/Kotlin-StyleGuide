@@ -38,6 +38,7 @@ This style-guide is of a mash-up between the existing Kotlin language style guid
 - Maximum line length: 100 characters.
 
 # <a name='naming'>Naming conventions</a>
+
 ### Packages
 
 Package names are similar to Java: all __lower-case__, multiple words concatenated together, without hypens or underscores:
