@@ -41,3 +41,29 @@ This style-guide is of a mash-up between the existing Kotlin language style guid
 ### Packages
 
 Package names are similar to Java: all __lower-case__, multiple words concatenated together, without hypens or underscores:
+
+### Methods
+
+Written in __lowerCamelCase__. For example `setValue`.
+
+### Fields
+
+Generally, written in __lowerCamelCase__. Fields should **not** be named with Hungarian notation, as Hungarian notation is [erroneously thought](http://jakewharton.com/just-say-no-to-hungarian-notation/) to be recommended by Google.
+
+Example field names:
+
+```kotlin
+class MyClass {
+  var publicField: Int = 0
+  val person = Person()
+  private var privateField: Int?
+}
+```
+
+Constant values in the companion object should be written in __uppercase__, with an underscore separating words:
+
+```kotlin
+companion object {
+  const val THE_ANSWER = 42
+}
+```
