@@ -73,9 +73,9 @@ Generally, written in __lowerCamelCase__. Fields should **not** be named with Hu
 
 ```kotlin
 class MyClass {
-  var id: String,
-  val count: Int = 0,
-  private var privateField: Int?
+   var id: String,
+   val count: Int = 0,
+   private var privateField: Int?
 }
 ```
 
@@ -83,7 +83,7 @@ Constant values in the companion object should be written in __uppercase__, with
 
 ```kotlin
 companion object {
-  const val THE_ANSWER = 42
+   const val THE_ANSWER = 42
 }
 ```
 
