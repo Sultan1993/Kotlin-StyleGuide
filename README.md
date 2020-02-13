@@ -14,7 +14,7 @@ This style-guide is of a mash-up between the existing Kotlin language style guid
 - The [Android Kotlin style guide](https://android.github.io/kotlin-guides/style.html)
 - The [Kotlin Coding Conventions](https://kotlinlang.org/docs/reference/coding-conventions.html) 
 - The [Ray Wenderlich Kotlin Style Guide](https://github.com/raywenderlich/kotlin-style-guide#nomenclature)
-- The [RedMadRobot Style Guide](https://github.com/RedMadRobot/kotlin-style-guide#naming)
+- The [RedMadRobot Kotlin Style Guide](https://github.com/RedMadRobot/kotlin-style-guide#naming)
 
 # Table of contents
 1. [Line length](#linelength)
