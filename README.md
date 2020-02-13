@@ -81,7 +81,7 @@ Unlike Java, direct access to fields in Kotlin is preferred.
 
 ## Spacing
 
-Spacing is especially important in raywenderlich.com code, as code needs to be easily readable as part of the tutorial. 
+Spacing is super important at Aviata.kz and Chocotravel.com. Code needs to be easily readable. 
 
 ### Line breaks
 
@@ -127,7 +127,7 @@ val widget: FlightWidget =
 
 ### Brace Style
 
-Only trailing closing-braces are awarded their own line. All others appear the same line as preceding code:
+Only trailing closing-braces should be place on their own line. All others appear the same line as preceding code:
 
 ```kotlin
 class MyClass {
