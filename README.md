@@ -202,13 +202,17 @@ class MyClass {
 __BAD:__
 
 ```kotlin
-class MyClass (...)
+class MyClass (...){ 
+   // ...
+}
 ```
 
 __GOOD:__
 
 ```kotlin
-class MyClass(...)
+class MyClass(...) {
+   // ...
+}
 ```
 
 # <a name='xml_guidance'>XML Guidance</a>
