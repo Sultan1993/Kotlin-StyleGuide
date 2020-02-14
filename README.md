@@ -121,7 +121,7 @@ val someField: SomeType
 
 #### Parent Class
 
-Leave a single space between class declaration and `:` character and a single space between `:` and it's parent class.
+Single space between class declaration and `:` character and a single space between `:` and it's parent class.
 
 __BAD:__
 
