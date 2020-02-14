@@ -99,6 +99,42 @@ Unlike Java, direct access to fields in Kotlin is preferred.
 
 Spacing is super important at Aviata.kz and Chocotravel.com. Code needs to be easily readable. 
 
+### Types
+
+There are two main rules for type declaration (`:` character)
+
+#### Fileds
+
+No space between field name and `:` character. Single space between `:` and type.
+
+__BAD:__
+
+```kotlin
+val someField : SomeType
+```
+
+__GOOD:__
+
+```kotlin
+val someField: SomeType
+```
+
+#### Parent Class
+
+Leave a single space between class declaration and `:` character and a single space between `:` and it's parent class.
+
+__BAD:__
+
+```kotlin
+class MyClass(...): ParentClass
+```
+
+__GOOD:__
+
+```kotlin
+class MyClass(...) : ParentClass
+```
+
 ### Line breaks
 
 Single line break should separate class name and it's fields or methods. Leave a line break between methods.
