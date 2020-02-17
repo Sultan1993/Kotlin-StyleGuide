@@ -315,7 +315,7 @@ __GOOD:__
 - `fragment_main_screen.xml`
 - `widget_rounded_edges.xml`
 
-Try to use the folllowing types:
+Use folllowing types:
 - `activity_....xml`
 - `fragment_....xml`
 - `dialog_....xml`
