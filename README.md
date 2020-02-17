@@ -322,7 +322,7 @@ Use folllowing types:
 - `layout_....xml`
 - `widget_....xml`
 - `view_....xml`
-- `item_....xml` or `adapter_item_....xml` (in case of delegate adapters)
+- `item_....xml` or `delegate_item_....xml` (in case of delegate adapters)
 
 ### Resources
 
